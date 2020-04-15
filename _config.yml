@@ -58,14 +58,14 @@ kramdown:
 # disqus_username: swan815
 
 # Gitalk
- gitalk:
-   enable: true    #是否开启Gitalk评论
-   clientID: 2b33ebad0499bc9d1aa5                            #生成的clientID
-   clientSecret: 5851849cb1165345f6d5e29cf2f0f8b6f4fcc883    #生成的clientSecret
-   repo: swan815.github.io    #仓库名称
-   owner: swan815    #github用户名
-   admin: swan815
-   distractionFreeMode: true #是否启用类似FB的阴影遮罩
+# gitalk:
+#   enable: true    #是否开启Gitalk评论
+#   clientID: 2b33ebad0499bc9d1aa5                            #生成的clientID
+#   clientSecret: 5851849cb1165345f6d5e29cf2f0f8b6f4fcc883    #生成的clientSecret
+#   repo: swan815.github.io    #仓库名称
+#   owner: swan815    #github用户名
+#   admin: swan815
+#   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 
