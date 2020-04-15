@@ -1,32 +1,36 @@
 ---
 layout: page
 title: "About"
-description: "Hey, this is Will Wang."
+description: "Hey, this is Swan Lou."
 header-img: "img/post-about-me.jpg"
 ---
 
 <!-- Chinese Version -->
+<div class="zh post-container">
+
+</div>
+
 
 <!-- 文章打赏功能 支持支付宝、微信打赏-->
-<!--<script src='{{ "/js/ds.js" | prepend: site.baseurl }}'></script>-->
-<!--<script>-->
-    <!--new tctip({-->
-        <!--top: '20%',-->
-        <!--button: {-->
-            <!--id: 6,-->
-            <!--type: 'dashang'-->
-        <!--},-->
-        <!--list: [-->
-            <!--{-->
-                <!--type: 'alipay',-->
-                <!--qrImg: '{{site.alipay_qr_img}}'-->
-            <!--}, {-->
-                <!--type: 'wechat',-->
-                <!--qrImg: '{{site.wechat_qr_img}}'-->
-            <!--}-->
-        <!--]-->
-    <!--}).init()-->
-<!--</script>-->
+<script src='{{ "/js/ds.js" | prepend: site.baseurl }}'></script>
+<script>
+    new tctip({
+        top: '20%',
+        button: {
+            id: 6,
+            type: 'dashang'
+        },
+        list: [
+            {
+                type: 'alipay',
+                qrImg: '{{site.alipay_qr_img}}'
+            }, {
+                type: 'wechat',
+                qrImg: '{{site.wechat_qr_img}}'
+            }
+        ]
+    }).init()
+</script>
 
 
 <!-- Gitalk 评论 start  -->
